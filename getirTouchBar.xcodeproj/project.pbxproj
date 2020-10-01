@@ -13,6 +13,9 @@
 		4D75444625267ADB00D98907 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D75444425267ADB00D98907 /* Main.storyboard */; };
 		4D75445225267ADB00D98907 /* getirTouchBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D75445125267ADB00D98907 /* getirTouchBarTests.swift */; };
 		4D75445D25267ADB00D98907 /* getirTouchBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D75445C25267ADB00D98907 /* getirTouchBarUITests.swift */; };
+		4D75446E25267B3300D98907 /* GetirImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D75446D25267B3300D98907 /* GetirImageView.swift */; };
+		4D75448025267D8300D98907 /* GetirWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D75447F25267D8300D98907 /* GetirWindowController.swift */; };
+		4D75449D25268BFB00D98907 /* kurye.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4D75449C25268BFB00D98907 /* kurye.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,13 +42,15 @@
 		4D75444225267ADB00D98907 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D75444525267ADB00D98907 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D75444725267ADB00D98907 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4D75444825267ADB00D98907 /* getirTouchBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = getirTouchBar.entitlements; sourceTree = "<group>"; };
 		4D75444D25267ADB00D98907 /* getirTouchBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = getirTouchBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D75445125267ADB00D98907 /* getirTouchBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getirTouchBarTests.swift; sourceTree = "<group>"; };
 		4D75445325267ADB00D98907 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D75445825267ADB00D98907 /* getirTouchBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = getirTouchBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D75445C25267ADB00D98907 /* getirTouchBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getirTouchBarUITests.swift; sourceTree = "<group>"; };
 		4D75445E25267ADB00D98907 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D75446D25267B3300D98907 /* GetirImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetirImageView.swift; sourceTree = "<group>"; };
+		4D75447F25267D8300D98907 /* GetirWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetirWindowController.swift; sourceTree = "<group>"; };
+		4D75449C25268BFB00D98907 /* kurye.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = kurye.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +106,9 @@
 				4D75444225267ADB00D98907 /* Assets.xcassets */,
 				4D75444425267ADB00D98907 /* Main.storyboard */,
 				4D75444725267ADB00D98907 /* Info.plist */,
-				4D75444825267ADB00D98907 /* getirTouchBar.entitlements */,
+				4D75447F25267D8300D98907 /* GetirWindowController.swift */,
+				4D75446D25267B3300D98907 /* GetirImageView.swift */,
+				4D75449C25268BFB00D98907 /* kurye.gif */,
 			);
 			path = getirTouchBar;
 			sourceTree = "<group>";
@@ -227,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D75449D25268BFB00D98907 /* kurye.gif in Resources */,
 				4D75444325267ADB00D98907 /* Assets.xcassets in Resources */,
 				4D75444625267ADB00D98907 /* Main.storyboard in Resources */,
 			);
@@ -254,7 +262,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D75444125267ADA00D98907 /* ViewController.swift in Sources */,
+				4D75448025267D8300D98907 /* GetirWindowController.swift in Sources */,
 				4D75443F25267ADA00D98907 /* AppDelegate.swift in Sources */,
+				4D75446E25267B3300D98907 /* GetirImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
