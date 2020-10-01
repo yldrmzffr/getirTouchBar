@@ -6,4 +6,4 @@ macbook touchbar ı için getir kuryesi gif i
 
 ## indir
 
-[indir](https://raw.githubusercontent.com/yldrmzffr/getirTouchBar/main/getirTouchBar.app/)
+[indir](https://github.com/yldrmzffr/getirTouchBar/raw/main/getirTouchBar.app.zip)
